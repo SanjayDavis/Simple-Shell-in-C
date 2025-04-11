@@ -97,8 +97,3 @@ Hello World
 - To exit the shell, use `Ctrl+C` or `Ctrl+D` or type `exit`.
 
 ---
-
-##  License
-
-This project is released under the [MIT License](LICENSE).
----
