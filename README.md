@@ -82,7 +82,7 @@ To run the shell:
 >: ls
 file1.txt  file2.c  folder/
 
->: start = myShell
+>: start = "myShell"
 myShell: pwd
 /home/user/myShell
 
