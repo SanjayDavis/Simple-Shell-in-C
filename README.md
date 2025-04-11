@@ -1,16 +1,14 @@
-<<<<<<< HEAD
 # Simple-Shell-in-C-with-Custom-Prompt-and-Command-Execution
-This project implements a basic shell (command-line interpreter) in C that allows users to enter and execute Unix commands interactively. The shell is built using standard C libraries and provides simple yet useful features for parsing and executing user commands.
 =======
-# 🔧 Simple Shell in C
+# Simple Shell in C
 
 A lightweight Unix-like shell implemented in C that supports basic command execution, dynamic prompt customization, and safe input handling using standard libraries.
 
 ---
 
-## 📌 Features
+##  Features
 
-- ✅ **Custom Shell Prompt**  
+-  **Custom Shell Prompt**  
   Change the prompt at runtime using the command:
   ```bash
   start = <your_prompt>
@@ -24,19 +22,19 @@ A lightweight Unix-like shell implemented in C that supports basic command execu
   myShell:
   ```
 
-- ✅ **Command Execution**  
+-  **Command Execution**  
   Executes standard Linux/Unix commands using `fork()` and `execvp()`.  
   Example:
   ```
   >: ls -l
   ```
 
-- ✅ **Safe Input Handling**  
+-  **Safe Input Handling**  
   Uses `fgets()` to prevent buffer overflow.
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **Displays the shell prompt** (`>:` by default).
 2. **Waits for user input.**
@@ -46,7 +44,7 @@ A lightweight Unix-like shell implemented in C that supports basic command execu
 
 ---
 
-## 💪 Technologies Used
+##  Technologies Used
 
 - C Programming Language
 - POSIX System Calls (`fork()`, `execvp()`, `wait()`)
@@ -54,7 +52,7 @@ A lightweight Unix-like shell implemented in C that supports basic command execu
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 ```
 .
@@ -64,7 +62,7 @@ A lightweight Unix-like shell implemented in C that supports basic command execu
 
 ---
 
-## 🚀 Compilation
+##  Compilation
 
 To compile the program:
 
@@ -80,7 +78,7 @@ To run the shell:
 
 ---
 
-## 🧪 Sample Usage
+##  Sample Usage
 
 ```bash
 >: ls
@@ -95,22 +93,14 @@ Hello World
 ```
 
 ---
-
-## ❗ Notes
+##  Notes
 
 - Arrow keys will not work as expected (e.g., no cursor movement/history) because this shell does not use advanced input handling (like `readline`).
 - To exit the shell, use `Ctrl+C` or `Ctrl+D` or type `exit`.
 
 ---
 
-## 📄 License
+##  License
 
 This project is released under the [MIT License](LICENSE).
-
 ---
-
-## 🙌 Acknowledgements
-
-Thanks to the creators of Unix and the GNU tools for inspiring this project.
-
->>>>>>> 6288086 (first commit)
