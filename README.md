@@ -1,5 +1,3 @@
-# Simple-Shell-in-C-with-Custom-Prompt-and-Command-Execution
-=======
 # Simple Shell in C
 
 A lightweight Unix-like shell implemented in C that supports basic command execution, dynamic prompt customization, and safe input handling using standard libraries.
